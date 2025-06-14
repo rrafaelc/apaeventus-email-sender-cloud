@@ -3,9 +3,6 @@ const nodemailer = require('nodemailer');
 
 exports.handler = async (event) => {
     const { to, subject, text } = event;
-    if ((!pdf && !url) || !to) {
-        return { statusCode: 400, body: 'Missing required parameters' };
-    }
 
     console.log('Passo 1');
     
