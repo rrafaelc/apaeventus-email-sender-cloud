@@ -18,8 +18,8 @@ Este projeto permite enviar e-mails usando uma função AWS Lambda escrita em No
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/rrafaelc/apaeventus-recovery-cloud.git
-cd apaeventus-recovery-cloud
+git clone https://github.com/rrafaelc/apaeventus-email-sender-cloud.git
+cd apaeventus-email-sender-cloud
 ```
 
 ### 2. Instalar dependências
