@@ -4,6 +4,15 @@ Este projeto permite enviar e-mails usando uma função AWS Lambda escrita em No
 
 ---
 
+## Tecnologias Utilizadas
+
+- **Node.js**: Ambiente de execução JavaScript utilizado para desenvolver a função Lambda.
+- **AWS Lambda**: Serviço de computação serverless da AWS onde a função é executada.
+- **nodemailer**: Biblioteca Node.js para envio de e-mails via SMTP.
+- **dotenv**: Carrega variáveis de ambiente a partir de um arquivo `.env`.
+
+---
+
 ## O que você vai precisar
 
 - Conta na [AWS](https://aws.amazon.com/)
